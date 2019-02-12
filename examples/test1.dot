@@ -1,0 +1,7 @@
+digraph G {
+node [shape=record]
+"a.b.C" [label="{class a.b.C|+a: Integer\n|+f()\n}"]
+"a.b.C" -> "a.b.D" [arrowhead=vee,style=solid]
+"a.b.D" -> "a.b.C" [arrowhead=onormal,style=dotted]
+"a.b.D" [label="{class a.b.D}"]
+}

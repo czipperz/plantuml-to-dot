@@ -1,0 +1,7 @@
+class a.b.C {
++a: Integer
++f()
+}
+a.b.C --> a.b.D
+a.b.C <|.. a.b.D
+class a.b.D
